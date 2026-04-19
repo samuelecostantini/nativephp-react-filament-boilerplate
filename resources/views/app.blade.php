@@ -11,6 +11,6 @@
     @inertiaHead
 </head>
 <body class="h-dvh max-h-dvh overflow-hidden flex flex-col nativephp-safe-area">
-    @inertia('totem-ariston')
+    @inertia('nativephp-react-filament-boilerplate')
 </body>
 </html>

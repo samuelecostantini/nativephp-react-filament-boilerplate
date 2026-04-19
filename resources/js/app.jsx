@@ -4,7 +4,7 @@ import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import './bootstrap';
 
 createInertiaApp({
-    id: 'totem-ariston',
+    id: 'nativephp-react-filament-boilerplate',
 
     // Using Laravel's helper for automatic code-splitting/lazy-loading
     resolve: (name) => resolvePageComponent(

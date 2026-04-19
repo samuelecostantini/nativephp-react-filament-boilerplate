@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-BLR1bkvT.css",
+    "file": "assets/app-DU1rIqIP.css",
     "name": "app",
     "names": [
       "app.css"
@@ -36,7 +36,7 @@
     "src": "resources/fonts/Montserrat-SemiBold.ttf"
   },
   "resources/js/Pages/HomeView.jsx": {
-    "file": "assets/HomeView-DtK0Z_SJ.js",
+    "file": "assets/HomeView-CXGJ9M4t.js",
     "name": "HomeView",
     "src": "resources/js/Pages/HomeView.jsx",
     "isDynamicEntry": true,
@@ -45,7 +45,7 @@
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-DU78nU7R.js",
+    "file": "assets/app-BEhmJK0p.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,
