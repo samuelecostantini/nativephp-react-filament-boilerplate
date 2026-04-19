@@ -18,3 +18,4 @@ This repository has a GitHub Action that runs daily to keep dependencies up to d
 - Runs `npm run build` to verify the build still works (assets are gitignored)
 # nativephp-react-filament-boilerplate
 # nativephp-react-filament-boilerplate
+# nativephp-react-filament-boilerplate
