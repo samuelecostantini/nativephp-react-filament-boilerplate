@@ -1,49 +1,6 @@
 {
-  "_AnimatePresence-B8XRQbgd.js": {
-    "file": "assets/AnimatePresence-B8XRQbgd.js",
-    "name": "AnimatePresence",
-    "imports": [
-      "_jsx-runtime-DVl8yvrS.js",
-      "_proxy-D68reaMs.js"
-    ]
-  },
-  "_ChevronIcon-CnHOiDc3.js": {
-    "file": "assets/ChevronIcon-CnHOiDc3.js",
-    "name": "ChevronIcon",
-    "imports": [
-      "_jsx-runtime-DVl8yvrS.js"
-    ]
-  },
-  "_GameOverView-Ixae3E84.js": {
-    "file": "assets/GameOverView-Ixae3E84.js",
-    "name": "GameOverView",
-    "imports": [
-      "_jsx-runtime-DVl8yvrS.js",
-      "_proxy-D68reaMs.js"
-    ]
-  },
-  "_ResultView-DtHpynIp.js": {
-    "file": "assets/ResultView-DtHpynIp.js",
-    "name": "ResultView",
-    "imports": [
-      "_jsx-runtime-DVl8yvrS.js",
-      "resources/js/app.jsx",
-      "_proxy-D68reaMs.js"
-    ]
-  },
-  "_jsx-runtime-DVl8yvrS.js": {
-    "file": "assets/jsx-runtime-DVl8yvrS.js",
-    "name": "jsx-runtime"
-  },
-  "_proxy-D68reaMs.js": {
-    "file": "assets/proxy-D68reaMs.js",
-    "name": "proxy",
-    "imports": [
-      "_jsx-runtime-DVl8yvrS.js"
-    ]
-  },
   "resources/css/app.css": {
-    "file": "assets/app-BTKtID8O.css",
+    "file": "assets/app-CBlc7iTp.css",
     "name": "app",
     "names": [
       "app.css"
@@ -78,145 +35,22 @@
     "file": "assets/Montserrat-SemiBold-C0-6BeuA.ttf",
     "src": "resources/fonts/Montserrat-SemiBold.ttf"
   },
-  "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home-CihtY4Hk.js",
-    "name": "Home",
-    "src": "resources/js/Pages/Home.jsx",
+  "resources/js/Pages/HomeView.jsx": {
+    "file": "assets/HomeView-DtK0Z_SJ.js",
+    "name": "HomeView",
+    "src": "resources/js/Pages/HomeView.jsx",
     "isDynamicEntry": true,
     "imports": [
-      "_jsx-runtime-DVl8yvrS.js",
-      "resources/js/app.jsx",
-      "resources/js/Pages/Home/Views/InfoView.jsx",
-      "_AnimatePresence-B8XRQbgd.js",
-      "_proxy-D68reaMs.js",
-      "_ChevronIcon-CnHOiDc3.js",
-      "resources/js/Pages/Home/Views/DashboardView.jsx",
-      "_GameOverView-Ixae3E84.js",
-      "resources/js/Pages/Home/Views/QuizView.jsx",
-      "_ResultView-DtHpynIp.js",
-      "resources/js/Pages/Home/Views/SelectionView.jsx",
-      "resources/js/Pages/Home/Views/SimulatorView.jsx"
-    ]
-  },
-  "resources/js/Pages/Home/Components/ActionButton.jsx": {
-    "file": "assets/ActionButton-BvKjY6mE.js",
-    "name": "ActionButton",
-    "src": "resources/js/Pages/Home/Components/ActionButton.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_jsx-runtime-DVl8yvrS.js",
-      "_ChevronIcon-CnHOiDc3.js"
-    ]
-  },
-  "resources/js/Pages/Home/Components/BrandCard.jsx": {
-    "file": "assets/BrandCard-BonGwndg.js",
-    "name": "BrandCard",
-    "src": "resources/js/Pages/Home/Components/BrandCard.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_jsx-runtime-DVl8yvrS.js",
-      "_proxy-D68reaMs.js",
-      "_ChevronIcon-CnHOiDc3.js"
-    ]
-  },
-  "resources/js/Pages/Home/Views/DashboardView.jsx": {
-    "file": "assets/DashboardView-Cy5H4j0I.js",
-    "name": "DashboardView",
-    "src": "resources/js/Pages/Home/Views/DashboardView.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_jsx-runtime-DVl8yvrS.js",
-      "_ChevronIcon-CnHOiDc3.js"
-    ]
-  },
-  "resources/js/Pages/Home/Views/GameOverView.jsx": {
-    "file": "assets/GameOverView-C-NwONFh.js",
-    "name": "GameOverView",
-    "src": "resources/js/Pages/Home/Views/GameOverView.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_jsx-runtime-DVl8yvrS.js",
-      "_proxy-D68reaMs.js",
-      "_GameOverView-Ixae3E84.js"
-    ]
-  },
-  "resources/js/Pages/Home/Views/InfoView.jsx": {
-    "file": "assets/InfoView-CVEWqdyj.js",
-    "name": "InfoView",
-    "src": "resources/js/Pages/Home/Views/InfoView.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_jsx-runtime-DVl8yvrS.js",
-      "resources/js/app.jsx",
-      "_AnimatePresence-B8XRQbgd.js",
-      "_proxy-D68reaMs.js",
-      "_ChevronIcon-CnHOiDc3.js"
-    ]
-  },
-  "resources/js/Pages/Home/Views/QuizView.jsx": {
-    "file": "assets/QuizView-BrMh4qRQ.js",
-    "name": "QuizView",
-    "src": "resources/js/Pages/Home/Views/QuizView.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_jsx-runtime-DVl8yvrS.js",
-      "_AnimatePresence-B8XRQbgd.js",
-      "_proxy-D68reaMs.js",
-      "_ChevronIcon-CnHOiDc3.js",
-      "_GameOverView-Ixae3E84.js",
-      "_ResultView-DtHpynIp.js"
-    ]
-  },
-  "resources/js/Pages/Home/Views/ResultView.jsx": {
-    "file": "assets/ResultView-C24zXWdg.js",
-    "name": "ResultView",
-    "src": "resources/js/Pages/Home/Views/ResultView.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_jsx-runtime-DVl8yvrS.js",
-      "_proxy-D68reaMs.js",
-      "_ResultView-DtHpynIp.js"
-    ]
-  },
-  "resources/js/Pages/Home/Views/SelectionView.jsx": {
-    "file": "assets/SelectionView-DCANBcWB.js",
-    "name": "SelectionView",
-    "src": "resources/js/Pages/Home/Views/SelectionView.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_jsx-runtime-DVl8yvrS.js",
-      "_ChevronIcon-CnHOiDc3.js"
-    ]
-  },
-  "resources/js/Pages/Home/Views/SimulatorView.jsx": {
-    "file": "assets/SimulatorView-CeTABiSK.js",
-    "name": "SimulatorView",
-    "src": "resources/js/Pages/Home/Views/SimulatorView.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_jsx-runtime-DVl8yvrS.js",
-      "_ChevronIcon-CnHOiDc3.js"
+      "resources/js/app.jsx"
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-Bs-Tq_Bx.js",
+    "file": "assets/app-DU78nU7R.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,
-    "imports": [
-      "_jsx-runtime-DVl8yvrS.js"
-    ],
     "dynamicImports": [
-      "resources/js/Pages/Home/Components/ActionButton.jsx",
-      "resources/js/Pages/Home/Components/BrandCard.jsx",
-      "resources/js/Pages/Home/Views/DashboardView.jsx",
-      "_GameOverView-Ixae3E84.js",
-      "resources/js/Pages/Home/Views/InfoView.jsx",
-      "resources/js/Pages/Home/Views/QuizView.jsx",
-      "_ResultView-DtHpynIp.js",
-      "resources/js/Pages/Home/Views/SelectionView.jsx",
-      "resources/js/Pages/Home/Views/SimulatorView.jsx",
-      "resources/js/Pages/Home.jsx"
+      "resources/js/Pages/HomeView.jsx"
     ]
   }
 }

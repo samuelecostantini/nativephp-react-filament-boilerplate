@@ -54,8 +54,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: url('../../bg.webp');
-    background-size: cover;
 }
 
 /* Custom scrollbar for a cleaner look */

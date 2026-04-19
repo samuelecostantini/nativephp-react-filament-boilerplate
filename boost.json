@@ -15,6 +15,7 @@
     ],
     "sail": false,
     "skills": [
+        "laravel-best-practices",
         "pest-testing",
         "inertia-react-development",
         "tailwindcss-development",

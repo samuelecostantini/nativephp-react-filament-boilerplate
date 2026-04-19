@@ -10,7 +10,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.jsx'])
     @inertiaHead
 </head>
-<body class="h-dvh max-h-dvh overflow-hidden flex flex-col bg-slate-50 text-slate-900 selection:bg-red-100 selection:text-red-700 nativephp-safe-area">
+<body class="h-dvh max-h-dvh overflow-hidden flex flex-col nativephp-safe-area">
     @inertia('totem-ariston')
 </body>
 </html>

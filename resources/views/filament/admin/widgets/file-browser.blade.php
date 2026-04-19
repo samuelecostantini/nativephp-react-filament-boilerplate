@@ -46,9 +46,6 @@
                                 wire:click="navigateTo('{{ $item['path'] }}')"
                                 class="flex items-center gap-2 {{ $item['type'] === 'directory' ? 'text-primary-600 hover:underline dark:text-primary-400' : '' }}"
                             >
-                                @if($item['is_parent'])
-                                    <x-filament::icon icon="heroicon-m-arrow-left" class="h-4 w-4" />
-                                @endif
                                 {{ $item['name'] }}
                             </button>
                         </td>

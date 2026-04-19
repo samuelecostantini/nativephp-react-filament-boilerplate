@@ -2,7 +2,7 @@
 
 namespace App\Providers\Filament;
 
-use App\Filament\Admin\CustomLogin;
+use App\Filament\Admin\Pages\Dashboard;
 use App\Filament\Admin\Resources\SystemMonitor\Pages\SystemMonitor;
 use Filament\Actions\Action;
 use Filament\Http\Middleware\Authenticate;
@@ -28,27 +28,25 @@ class AdminPanelProvider extends PanelProvider
             ->default()
             ->id('admin')
             ->path('admin')
-            ->brandLogo(asset('icon.png'))
-            ->brandLogoHeight('5rem')
-            ->brandName('Totem Conto Termico 3.0')
-            ->login(CustomLogin::class)
+            ->brandName('Nativephp+React+Filament Boilerplate')
+            ->login()
             ->colors([
                 'primary' => Color::Red,
             ])
             ->discoverResources(in: app_path('Filament/Admin/Resources'), for: 'App\Filament\Admin\Resources')
             ->discoverPages(in: app_path('Filament/Admin/Pages'), for: 'App\Filament\Admin\Pages')
             ->pages([
+                Dashboard::class,
             ])
+            ->homeUrl('/admin/dashboard')
             ->navigationItems([
                 NavigationItem::make('System Monitor')
-                    ->icon('heroicon-o-cpu-chip')
                     ->group('Admin')
-                    ->hidden(fn ():bool => ! auth()->user()->isAdmin())
+                    ->hidden(fn (): bool => ! auth()->user()->isAdmin())
                     ->url(fn () => SystemMonitor::getUrl()),
             ])
             ->userMenuItems([
                 Action::make('Pagina iniziale')
-                    ->icon('heroicon-o-home')
                     ->url('/'),
             ])
             ->discoverWidgets(in: app_path('Filament/Admin/Widgets'), for: 'App\Filament\Admin\Widgets')

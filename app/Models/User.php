@@ -49,12 +49,20 @@ class User extends Authenticatable implements FilamentUser
         ];
     }
 
+    /**
+     * In this place will be the access rules to admin panel
+     */
     public function canAccessPanel(Panel $panel): bool
     {
         return true;
     }
 
-    public function isAdmin(): bool {
-        return $this->email === 'costantini@apiu.digital' || $this->email === 'web@a-piu.it';
+    /**
+     * Check if the user is an admin.
+     * Currently always returns true - implement your own logic (e.g., check role, permission, or is_admin flag).
+     */
+    public function isAdmin(): bool
+    {
+        return true;
     }
 }
