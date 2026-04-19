@@ -1,0 +1,42 @@
+﻿Obiettivo del Progetto
+Realizzazione di un sistema digitale interattivo “Totem Info Point” per eventi, finalizzato alla
+promozione dei brand Ariston, Chaffoteaux e Wolf, con raccolta lead e accesso a contenuti informativi
+e interattivi legati al conto termico.
+Totem Interattivo
+Applicazione installata su totem touch con le seguenti funzionalità:
+- Selezione Brand
+➢ Visualizzazione dinamica dei brand attivi per l’evento
+➢ Accesso personalizzato ai contenuti per brand
+- Sezioni per ciascun Brand
+❖ Vai nel simulatore
+➢ Versione locale del simulatore conto termico
+➢ Funzionamento offline per garantire stabilità durante l’evento
+❖ Scopri di più
+➢ Infografica interattiva touch derivata dalla brochure conto termico
+➢ Navigazione semplice e intuitiva
+❖ Fai il quiz
+➢ Mini quiz interattivo con domande sul conto termico
+➢ Coinvolgimento utente e apprendimento attivo
+
+
+Raccolta Lead e Conversione
+Verranno implementate, all’interno del touch, le seguenti funzionalità di lead generation:
+➢ Al termine di ogni esperienza, visualizzazione QR Code con collegamento al portale xBonus per
+iscrizione
+➢ Integrazione form lead direttamente nel totem (nome, cognome, email)
+
+
+Pannello di Amministrazione
+Sviluppo di un pannello web locale dedicato che consenta:
+❖ Selezione dei brand attivi per ciascun evento:
+➢ Ariston
+➢ Chaffoteaux
+➢ Wolf
+❖ Raccolta e gestione dei lead generati dai form
+❖ Esportazione dati lead (es. CSV / Excel)
+Caratteristiche Tecniche
+➢ Applicazione web-based ottimizzata per touch screen
+➢ Modalità offline
+➢ Backend per gestione eventi e lead
+➢ Compatibilità multi-brand e multi-evento
+➢ Interfaccia user-friendly

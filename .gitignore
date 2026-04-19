@@ -1,0 +1,106 @@
+# Environment
+.env
+.env.backup
+.env.local
+.env.testing
+.env.production
+!.env.example
+
+# Dependencies
+/vendor
+/node_modules
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+composer.lock
+
+# Laravel
+/bootstrap/cache/*.php
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+/storage/app/public/*
+!storage/app/public/.gitkeep
+!storage/framework/.gitkeep
+!storage/framework/cache/data/.gitkeep
+!storage/framework/sessions/.gitkeep
+!storage/framework/testing/.gitkeep
+!storage/framework/views/.gitkeep
+!storage/logs/.gitkeep
+
+# NativePHP
+/nativephp/android/build
+/nativephp/android/.gradle
+/nativephp/android/.idea
+/nativephp/android/*.iml
+/nativephp/android/local.properties
+/nativephp/android/captures
+/nativephp/android/gradle
+/nativephp/android/gradlew
+/nativephp/android/gradlew.bat
+/nativephp/android/*.log
+/nativephp/android/*.apk
+/nativephp/android/*.aab
+/nativephp/android/external
+/nativephp/android/app/debug
+/nativephp/android/app/release
+/nativephp/ios/build
+/nativephp/ios/.idea
+/nativephp/ios/*.iml
+/nativephp/ios/Pods
+/nativephp/ios/*.xcworkspace
+/nativephp/ios/xcuserdata
+/nativephp/ios/DerivedData
+/nativephp/dist
+/nativephp/vendor
+
+# IDE
+/.idea
+/.vscode
+/.fleet
+/.zed
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Testing
+.phpunit.result.cache
+.phpunit.cache
+coverage
+.php-cs-fixer.cache
+.php_cs.cache
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.sass-cache
+.eslintcache
+.stylelintcache
+*.bak
+*.tmp
+*.temp

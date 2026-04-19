@@ -1,0 +1,1 @@
+import{n as e,s as t,t as n}from"./jsx-runtime-DVl8yvrS.js";t(e(),1);var r=n(),i=({className:e=`size-6`,...t})=>(0,r.jsx)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,fill:`none`,viewBox:`0 0 24 24`,strokeWidth:1.5,stroke:`currentColor`,className:e,...t,children:(0,r.jsx)(`path`,{strokeLinecap:`round`,strokeLinejoin:`round`,d:`m8.25 4.5 7.5 7.5-7.5 7.5`})});export{i as t};
