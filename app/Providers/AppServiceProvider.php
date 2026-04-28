@@ -2,7 +2,6 @@
 
 namespace App\Providers;
 
-use App\Models\Brand;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Schema;
@@ -25,10 +24,6 @@ class AppServiceProvider extends ServiceProvider
 
         if (! Schema::hasTable('migrations')) {
             Artisan::call('migrate', ['--force' => true]);
-        }
-
-        if (Schema::hasTable('brands') && ! Brand::query()->exists()) {
-            Artisan::call('db:seed', ['--force' => true]);
         }
     }
 }
