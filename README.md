@@ -1,5 +1,10 @@
 # NativePHP + Filament + React Boilerplate
 
+[![Laravel 12](https://img.shields.io/badge/Laravel-12-red)](...)
+[![NativePHP](https://img.shields.io/badge/NativePHP-v3-blue)](...)
+[![Filament](https://img.shields.io/badge/Filament-v5-pink)](...)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](...)
+
 A modern, batteries-included starter template for building native mobile applications with PHP, Laravel, and React.
 
 ## Features
