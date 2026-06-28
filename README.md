@@ -1,3 +1,7 @@
+## Intro
+
+I built a little Android app at work using this awesome framework. I really wanted that smooth React feel without actually having to learn React Native from scratch. So, I mixed React and Tailwind for the web frontend with NativePHP, plus Filament for the admin dashboard. It’s an amazing combo! But I quickly realized it’s not exactly plug-and-play to set up. So, after finishing my app, I decided to put together a ready-to-use boilerplate so anyone can build their own app in just a few steps. It’s completely ready to go: just run the setup, hit composer native:clean-run, and boom-it launches right on your native Android device, giving you the perfect starting point for your next project.
+
 # NativePHP + Filament + React Boilerplate
 
 [![Laravel 12](https://img.shields.io/badge/Laravel-12-red)](...)
